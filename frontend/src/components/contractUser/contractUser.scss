@@ -1,0 +1,77 @@
+.contractUser{
+    padding-left: 24px;
+    padding: 15px;
+     
+    .tableContract{
+        margin: 20px;
+        width: 100%;
+        border: 1px solid rgba(144, 202, 249, 0.46);
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        border-radius: 8px;
+        margin-bottom:100px;
+         
+        th{
+            padding: 20px;
+            display: flex;
+            padding-left: 40px;
+            align-items: center;
+             
+            border-bottom:1px solid rgba(144, 202, 249, 0.46);
+        }
+        ul{
+            list-style-type: none;
+             
+            li{
+                margin-bottom: 10px;
+                 
+                
+            }
+
+        }
+    .hrLineStyle{
+        flex-shrink: 0;
+        margin-right: 30px;
+        border-width: 0px 0px thin;
+        border-style: solid;
+        border-color: rgb(238, 238, 238);
+        opacity: 1;
+        padding-top: 8px;
+    }
+    .contractDetail{
+    
+        h4{
+             
+            font-size: 0.9rem;
+            padding-right:150px
+        }
+        .details{
+            font-size: 0.9rem;
+        }
+        display: flex;
+         
+        padding-right: 30px;
+        align-items: center;
+    }
+    }
+}
+.space1{
+   padding-right: 17px;
+}
+.space2{
+    padding-right: 9px;
+ }
+ .space3{
+    padding-right: 35px;
+ }
+ .space4{
+    padding-right: 44px;
+ }
+ .space5{
+    padding-right: 37px;
+ }
+ .space6{
+    padding-right: 24px;
+ }
+ .space7{
+    padding-right: 13px;
+ }

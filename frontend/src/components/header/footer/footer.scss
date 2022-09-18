@@ -1,0 +1,75 @@
+.menu-dashboard {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 100px;
+  .dashboard {
+    position: fixed;
+    height: 100%;
+    background-color: rgb(253, 253, 253);
+    .dashboard-df {
+      list-style: none;
+      margin: 0px;
+      padding: 0px 0px 8px;
+      position: relative;
+      .dashboard-user {
+        margin: 10px 0px 0.35em;
+        font-family: Roboto, sans-serif;
+        line-height: 1.66;
+        display: block;
+        color: rgb(15, 14, 14);
+        font-size: 0.95rem;
+        font-weight: 600;
+        padding: 6px;
+        text-transform: capitalize;
+      }
+    }
+  }
+  .default-group {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    .a-link {
+      text-decoration: none;
+      display: flex;
+      margin-left: 10px;
+      padding-top: 7px ;
+      padding-bottom: 7px;
+      align-items: center;
+      color: gray;
+    }
+    .a-link:focus {
+      color: rgb(57, 73, 171);
+      background-color: rgb(232, 234, 246);
+      text-decoration: none;
+      display: flex;
+      margin-left: 10px;
+      align-items: center;
+      padding-top: 7px ;
+      padding-bottom: 7px;
+      border-radius: 8px;
+    }
+  }
+  .home-link {
+    display: flex;
+    padding: 5px;
+    padding-right: 18px;
+    padding-left: 15px;
+  }
+  .default {
+    margin: 0px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: Roboto, sans-serif;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-right: 120px;
+  }
+}
+.line-style {
+  margin: 2px 0px 10px;
+  flex-shrink: 0;
+  border-width: 0px 0px thin;
+  border-style: solid;
+  border-color: rgb(238, 238, 238);
+  opacity: 1;
+}

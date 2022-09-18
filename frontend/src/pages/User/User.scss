@@ -1,0 +1,76 @@
+.profileContainer{
+    display:flex;
+    align-items: baseline;
+    background-color: rgb(227, 242, 253);
+    padding: 20px;
+    width: 100%;
+    margin-top: 88px;
+    margin-right: 0px;
+    border-radius: 8px 8px 0px 0px;
+    flex-direction: column;
+    .bg-profileContainer{
+        display:flex;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        width: 100%;
+        margin-bottom: 20px;
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+        border: 1px solid rgba(144, 202, 249, 0.46);
+        }
+    .bg-profileContainer1{
+            display:flex;
+            flex-direction: column;
+            background-color: rgb(255, 255, 255);
+            border-radius: 8px;
+            width: 100%;
+            margin-bottom: 20px;
+            padding-top: 15px;
+            padding-left: 15px;
+            padding-bottom: 15px;
+            border: 1px solid rgba(144, 202, 249, 0.46);
+        }
+}
+.bg-menu{
+    display: flex;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+.breadcrumbs{
+    margin-right: 20px;
+    justify-content: flex-end
+}
+.profileTitle{
+    padding-left: 20px;
+    padding-right: 1200px;
+    font-weight: bold;
+    font-size:2rem;
+}
+.boxContainer{
+    display: flex;
+}
+.iconElement{
+    display: flex;
+    padding: 5px;
+    padding-right: 18px;
+    padding-left: 15px;
+   
+}
+.menuElement{
+    margin: 0px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: Roboto, sans-serif;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-right: 40px;
+}
+.profile-link {
+    text-decoration: none;
+    display: flex;
+    margin-left: 10px;
+    padding-top: 7px ;
+    padding-bottom: 7px;
+    align-items: center;
+    color: rgb(9, 9, 9);
+  }

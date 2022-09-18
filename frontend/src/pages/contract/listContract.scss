@@ -1,0 +1,31 @@
+.profileUser1{
+    padding-top: 15px;
+    display: flex;
+    margin-bottom: 200px;
+    margin-right: 90px;
+    flex-direction: column;
+}
+.formUpdate{
+    display: flex;
+    width: 1%;
+    margin-left: -525px;
+    padding-top: 20px;
+    .delete{
+        margin-left: -567px
+    }
+}
+.user{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-style: italic;
+    padding-right: 10px;
+}
+.aa{
+    display: flex;
+    position: absolute;
+    margin-left: 434px;
+    left: 394px;
+    top: 250px;
+}

@@ -1,0 +1,34 @@
+.editUser{
+    padding-left: 24px;
+    .tbEdit{
+        margin: 20px;
+        width: 100%;
+        border: 1px solid rgba(144, 202, 249, 0.46);
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        border-radius: 8px;
+
+    }
+    .editAccount{
+        border-bottom:1px solid rgba(144, 202, 249, 0.46);
+        display: flex;
+        margin: 0px;
+        font-size: 0.875rem;
+        color: rgb(33, 33, 33);
+        font-weight: 600;
+        font-family: Roboto, sans-serif;
+        line-height: 1.334;
+        padding:15px;
+        width: 30%;
+        margin-right: 150px;
+        padding-right: 550px;
+    }
+    .editDetails{
+        padding: 20px;
+    }
+    .userDetail{
+        display: flex;
+    }
+}
+.form-sb{
+    display:flex;
+}

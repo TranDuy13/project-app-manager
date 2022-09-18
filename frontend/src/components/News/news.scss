@@ -1,0 +1,18 @@
+.New-ctr {
+    position: relative;
+    display: flex;
+    margin-top: 25px;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    align-items: center;
+    border-radius: 8px;
+    padding: 16px 16px 16px 16px;
+    width: 83%;
+    
+  .menu {
+    width: 100%;
+    display: flex;
+  }
+}

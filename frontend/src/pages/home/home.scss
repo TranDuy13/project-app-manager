@@ -1,0 +1,28 @@
+.news {
+  display: flex;
+  align-items: baseline;
+  .bg-news {
+    background-color: rgb(227, 242, 253);
+    border: 1px solid rgba(144, 202, 249, 0.46);
+    border-radius: 8px;
+    display: flex;
+    background-color: rgb(227, 242, 253);
+    width: calc(100% - 260px);
+    min-height: calc(100vh - 88px);
+    flex-grow: 1;
+    padding: 20px;
+    margin-top: 88px;
+    margin-right: 20px;
+    border-radius: 8px 8px 0px 0px;
+    transition: margin 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    margin-left: 278px;
+  }
+  .weatherToday{
+    width: 100%;
+    margin-right: -34px;
+  }
+}
+.card-css {
+  display: flex;
+  width: 130%;
+}

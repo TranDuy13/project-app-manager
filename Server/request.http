@@ -1,0 +1,55 @@
+
+POST http://localhost:5000/auth/register
+Content-Type: application/json
+
+{
+    "username": "adminmanager",
+    "password": "admin1601",
+    "fullname":"Tran Nhat Duy"
+}
+###
+POST http://localhost:5000/auth/login
+Content-Type: application/json
+
+{
+    "username": "adminmanager",
+    "password": "admin1601"
+}
+###
+POST http://localhost:5000/auth/register
+Content-Type: application/json
+
+{
+    "username": "adminmanager",
+    "password": "admin1601",
+    "fullname":"Tran Nhat Duy"
+}
+###
+POST http://localhost:2000/auth/login
+Content-Type: application/json
+
+{
+    "username": "adminmanager",
+    "password": "admin12345"
+}
+###
+POST http://localhost:5000/auth/register
+Content-Type: application/json 
+
+{
+    
+    "username": "userempployee",
+    "password": "user12334",
+    "fullname": "Le Huu Hoang"
+}
+###
+POST http://localhost:5000/auth/register
+Content-Type: application/json 
+
+{
+    "username": "useroanh",
+    "password": "admin12345",
+    "fullname": " Tran Thi Kim Oanh",
+    "role":"part time",
+    "address":" a6/60 man thiện"
+}

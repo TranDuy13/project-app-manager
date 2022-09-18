@@ -1,0 +1,30 @@
+.proPicture{
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-right: 400px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 96%;
+    border-bottom:1px solid rgba(144, 202, 249, 0.46);
+}
+.avtPicture{
+    display: flex;
+    justify-content: center;
+    padding-top:16px;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+    
+}
+.notes{
+    display:flex;
+    padding:16px;
+    margin: 0px;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: rgb(158, 158, 158);
+    font-family: Roboto, sans-serif;
+    line-height: 1.57;
+    text-align: center;
+}
