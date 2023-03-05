@@ -7,5 +7,3 @@ adminmanager
 admin1234
 
 Người thực hiện: Trần Nhật Duy
-		 Đinh Bảo Minh
-		 Nguyễn Đức Thịnh
